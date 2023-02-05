@@ -1,0 +1,241 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+  }
+  #paragraph{
+    margin-left:40px;
+    margin-right:40px;
+  }
+  #india_image{
+    height:600px;
+    text-align:center;
+  }
+  #pin{
+    position: absolute;
+    height:40px;
+    left: 1145px;
+    top:365px
+  }
+  .kol_image{
+    height:400px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  p{
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  .kol_h4{
+  font-weight: bold;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
+
+
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Verdana, sans-serif; margin:0;
+  height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url('delhi.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.home_kol{
+ margin-left: 25px;
+ margin-top: 10px;
+ position: static;
+}
+#vicMap{
+  margin-left: 100px;
+  top: 100%;
+}
+#pindelhi{
+  position: absolute;
+  height:40px;
+  left: 965px;
+  top:255px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.hello{
+  background-color: red;
+}
+.yes{
+  background-color: #1b4a1d;
+}
+
+
+
+
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
